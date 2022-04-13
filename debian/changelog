@@ -1,0 +1,5 @@
+transmission-rpc (3.3.0-1) unstable; urgency=medium
+
+  * Initial debian package release.
+
+ -- Viacheslav Chimishuk <vchimishuk@yandex.ru>  Wed, 13 Apr 2022 19:26:00 +0300

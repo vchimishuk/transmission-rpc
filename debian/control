@@ -1,0 +1,19 @@
+Source: transmission-rpc
+Section: python
+Priority: optional
+Maintainer: Viacheslav Chimishuk <vchimishuk@yandex.ru>
+Uploaders: Viacheslav Chimishuk <vchimishuk@yandex.ru>
+Build-Depends: debhelper
+Standards-Version: 4.4.0
+Homepage: https://github.com/Trim21/transmission-rpc
+Vcs-Git: https://github.com/Trim21/transmission-rpc.git
+Vcs-Browser: https://github.com/Trim21/transmission-rpc
+
+Package: python3-transmission-rpc
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3-typing-extensions
+Suggests: transmission-daemon
+Description: transmission-rpc is a python module implementing the json-rpc
+ client protocol for the BitTorrent client Transmission.
+ Support rpc version <= 16 (transmission <= 3.00), should works fine with
+ newer rpc version but some new feature may be missing.
